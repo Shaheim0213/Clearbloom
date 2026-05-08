@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Forms Practice</title>
+</head>
+<body>
+
+  <h1>HTML Forms Practice</h1>
+
+  <!-- ===================== -->
+  <!-- PART A: FORM ELEMENTS -->
+  <!-- ===================== -->
+  <h2>Part A: Form Elements</h2>
+
+  <!-- 1. Textarea -->
+  <h3>1. Textarea for Comments</h3>
+  <textarea rows="3" cols="30" placeholder="Enter your comments here..."></textarea>
+
+  <!-- 2. Dropdown with 5 options -->
+  <h3>2. Dropdown Menu</h3>
+  <select>
+    <option>Option 1</option>
+    <option>Option 2</option>
+    <option>Option 3</option>
+    <option>Option 4</option>
+    <option>Option 5</option>
+  </select>
+
+  <!-- 3. Dropdown with pre-selected value -->
+  <h3>3. Dropdown with Pre-selected Option</h3>
+  <select>
+    <option>Apple</option>
+    <option selected>Banana</option>
+    <option>Orange</option>
+    <option>Grapes</option>
+    <option>Mango</option>
+  </select>
+
+  <hr>
+
+  <!-- ===================== -->
+  <!-- PART B: INPUT TYPES -->
+  <!-- ===================== -->
+  <h2>Part B: Input Types</h2>
+
+  <form>
+    <label>Email:</label><br>
+    <input type="email" placeholder="name@example.com"><br><br>
+
+    <label>Number:</label><br>
+    <input type="number" placeholder="Enter a number"><br><br>
+
+    <label>Date:</label><br>
+    <input type="date"><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" placeholder="Enter password"><br><br>
+
+    <label>Phone Number:</label><br>
+    <input type="tel" placeholder="123-456-7890"><br><br>
+
+    <label>Website:</label><br>
+    <input type="url" placeholder="https://example.com"><br><br>
+
+    <input type="submit">
+  </form>
+<hr>
+  <h2>Part C: Debugged Form</h2>
+
+  <form>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" placeholder="Enter your email" required><br><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" min="13" max="18" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" placeholder="123-456-7890"><br><br>
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" placeholder="Tell us what you think..."></textarea><br><br>
+
+    <input type="submit">
+  </form>
+
+  <hr>
+
+  <!-- ===================== -->
+  <!-- PART D: MINI-PROJECT -->
+  <!-- ===================== -->
+  <h2>BTECH Club Registration Form</h2>
+
+  <form>
+    <!-- Full Name -->
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" placeholder="Enter your full name" required><br><br>
+
+    <!-- Email -->
+    <label for="clubemail">Email:</label><br>
+    <input type="email" id="clubemail" placeholder="name@example.com" required><br><br>
+
+    <!-- Phone -->
+    <label for="clubphone">Phone Number:</label><br>
+    <input type="tel" id="clubphone" placeholder="123-456-7890"><br><br>
+
+    <!-- Grade Level -->
+    <label for="grade">Grade Level:</label><br>
+    <select id="grade">
+      <option>9</option>
+      <option>10</option>
+      <option>11</option>
+      <option>12</option>
+    </select><br><br>
+
+    <!-- Birth Date -->
+    <label for="birthdate">Birth Date:</label><br>
+    <input type="date" id="birthdate" min="2002-01-01" max="2010-12-31"><br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" minlength="8" placeholder="Minimum 8 characters" required><br><br>
+
+    <!-- Comments -->
+    <label for="whyjoin">Why do you want to join?</label><br>
+    <textarea id="whyjoin" rows="5" placeholder="Tell us why you want to join BTECH Club"></textarea><br><br>
+
+    <!-- Newsletter -->
+    <label>
+      <input type="checkbox"> Receive newsletter?
+    </label><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+
+</body>
+</html>

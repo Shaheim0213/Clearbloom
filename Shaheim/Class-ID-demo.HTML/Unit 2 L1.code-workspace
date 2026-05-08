@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../Unit 1 L3"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Unit 1 L4"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Class-ID-demo.HTML",
+		"liveServer.settings.port": 5501
+	}
+}

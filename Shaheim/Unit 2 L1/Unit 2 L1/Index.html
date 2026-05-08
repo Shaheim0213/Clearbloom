@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name">
+    <title>BMW Blog</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            margin: 20px;
+            padding: 20px;
+        }
+        h2 {
+            color: #003366;
+        }
+        section {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        article {
+            margin-bottom: 15px;
+        }
+        iframe {
+            display: block;
+            margin: 20px 0;
+            max-width: 100%;
+            height: auto;
+        }
+        img {
+            width: 100%; /* Make images responsive */
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .model-image {
+            width: 300px;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the BMW Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#models">BMW Models</a></li>
+                <li><a href="#videos">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Introduction Section -->
+        <section id="introduction">
+            <h2>About BMW</h2>
+            <p>The BMW Group is one of the world's most successful manufacturers of premium cars and motorcycles. With a global presence, BMW has earned a reputation for luxury, performance, and innovation.</p>
+            <!-- Adding an image of BMW logo -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/BMW.svg/1024px-BMW.svg.png" alt="BMW Logo">
+        </section>
+
+        <!-- BMW Models Section -->
+        <section id="models">
+            <h2>Popular BMW Models</h2>
+            
+            <!-- BMW 3 Series Model -->
+            <article>
+                <h3>BMW 3 Series</h3>
+                <img src="https://www.bmwusa.com/content/dam/bmw/marketUS/bmwusa/models/3-series/3series-sedan-hero-1.jpg" alt="BMW 3 Series" class="model-image">
+                <p>The BMW 3 Series is an iconic compact luxury sedan, known for its precision engineering and elegant design. It's available in various versions, including sedans and hybrids.</p>
+            </article>
+            
+            <!-- BMW X5 Model -->
+            <article>
+                <h3>BMW X5</h3>
+                <img src="https://www.bmwusa.com/content/dam/bmw/marketUS/bmwusa/models/x5/x5-suv-hero-1.jpg" alt="BMW X5" class="model-image">
+                <p>The BMW X5 is a luxury SUV that offers a combination of powerful performance, high-end features, and a comfortable ride, making it a popular choice among families.</p>
+            </article>
+            
+            <!-- BMW i8 Model -->
+            <article>
+                <h3>BMW i8</h3>
+                <img src="https://www.bmwusa.com/content/dam/bmw/marketUS/bmwusa/models/i8/i8-coupe-hero-1.jpg" alt="BMW i8" class="model-image">
+                <p>The BMW i8 is a plug-in hybrid sports car that combines futuristic design with eco-friendly technology, redefining the way we think about performance and sustainability.</p>
+            </article>
+        </section>
+
+        <!-- Embedded Video Section -->
+        <section id="videos">
+            <h2>BMW Videos</h2>
+            <p>Check out this exciting BMW advertisement showcasing the power and elegance of the BMW 5 Series.</p>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/QdW8fSXI-30" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+    </main>
+</body>
+</html>
